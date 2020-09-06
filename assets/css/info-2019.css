@@ -1,0 +1,288 @@
+.info-2019 {
+  background: url(../images/bg-info-2019.png) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  margin-top: 50px;
+  padding-top: 70px;
+}
+
+.info-2019 .txt-01 {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 65px;
+  color: #3a5646;
+  text-transform: uppercase;
+}
+
+.info-2019 .txt-01 span {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  position: relative;
+  z-index: 100;
+}
+
+.info-2019 .txt-01 span::after {
+  content: '';
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  background-color: #f1e720;
+  bottom: 0px;
+  left: 0;
+  z-index: -10;
+}
+
+.info-2019 .box-1 {
+  border-top: solid 1px #f1e720;
+  border-bottom: solid 1px #f1e720;
+  display: table;
+  margin: 30px auto 0;
+  padding: 15px 30px 20px;
+}
+
+.info-2019 .box-1 .txt-02 {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  color: #3a5646;
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 35px;
+  margin-bottom: 5px;
+}
+
+.info-2019 .box-1 .txt-03 {
+  font-family: '946 Latin Regular 4';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 65px;
+  line-height: 30px;
+  text-transform: uppercase;
+  background-color: #f1e720;
+  display: table;
+  margin: 0 auto;
+  padding: 5px 5px;
+}
+
+.info-2019 .txt-04 {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 55px;
+  color: #3a5646;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.info-2019 .txt-04 span {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  position: relative;
+  z-index: 100;
+}
+
+.info-2019 .txt-04 span::after {
+  content: '';
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  background-color: #f1e720;
+  bottom: 0px;
+  left: 0;
+  z-index: -10;
+}
+
+.info-2019 .box-2 {
+  border-top: solid 1px #f1e720;
+  border-bottom: solid 1px #f1e720;
+  display: table;
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30px;
+}
+
+.info-2019 .box-2 .txt-02 {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  color: #3a5646;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.info-2019 .box-2 .txt-03 {
+  font-family: '946 Latin Regular 4';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 15px;
+  text-transform: uppercase;
+  background-color: #f1e720;
+  display: table;
+  margin: 0 auto;
+  padding: 5px 5px;
+}
+
+.info-2019 .txt-05 {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 15px;
+  color: #3a5646;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.em2020 {
+  background: url(../images/bg-2020.png) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.em2020 .txt-1 {
+  font-family: '946 Latin Regular 4';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: -50px;
+}
+
+.em2020 .txt-2 {
+  font-family: '946 Latin Regular 4';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.em2020 .txt-2::before {
+  content: '';
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  background-color: #f1e720;
+  bottom: -10px;
+  left: -184px;
+}
+
+.em2020 .txt-3 {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 45px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .info-2019 {
+    background: url(../images/bg-info-2019-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+  .info-2019 .txt-01 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .info-2019 .box-1 {
+    margin: 20px auto 0;
+    padding: 15px 30px 20px;
+  }
+  .info-2019 .box-1 .txt-02 {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 5px;
+  }
+  .info-2019 .box-1 .txt-03 {
+    font-size: 45px;
+    line-height: 30px;
+  }
+  .info-2019 .txt-04 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+  .info-2019 .box-2 {
+    display: table;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+  }
+  .info-2019 .box-2 .txt-02 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .info-2019 .box-2 .txt-03 {
+    font-size: 35px;
+    line-height: 28px;
+    display: table;
+    margin: 0 auto;
+    padding: 5px 5px;
+  }
+  .info-2019 .txt-05 {
+    font-size: 10px;
+    line-height: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .em2020 {
+    background-color: transparent;
+    padding-top: 25px;
+  }
+  .em2020 .txt-1 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .em2020 .txt-2 {
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .em2020 .txt-2::before {
+    bottom: -10px;
+    left: -105px;
+  }
+  .em2020 .txt-3 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=info-2019.css.map */

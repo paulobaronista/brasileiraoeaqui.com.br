@@ -1,6 +1,195 @@
+.logo {
+    margin-top: 30px;
+}
+
+.video {
+    background: url(../images/bg-video.png) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-top: 40px;
+    padding-bottom: 80px;
+
+    .box-1 {
+        margin-top: 130px;
+
+        .txt-1 {
+            font-family: 'GoodOT-CondBold';
+            font-weight: bold;
+            font-style: normal;
+            font-size: 60px;
+            line-height: 60px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .txt-2 {
+            font-family: 'GoodOT-CondBold';
+            font-weight: bold;
+            font-style: normal;
+            font-size: 60px;
+            line-height: 60px;
+            color: #3a5646;
+            text-transform: uppercase;
+            background-color: #00e396;
+            display: table;
+            padding: 6px 30px 2px;
+            margin-left: -30px;
+            margin-top: 5px;
+        }
+    }
+
+    .box-2 {
+        margin-top: 240px;
+
+        .txt-1 {
+            font-family: 'GoodOT-CondNews';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 60px;
+            line-height: 60px;
+            color: #fff;
+            text-transform: uppercase;
+
+            strong {
+                color: #f1e720;
+            }
+        }
+    }
+
+    .box-3 {
+        margin-top: 50px;
+    }
+}
+
+.em2019 {
+    background: url(../images/bg-2019.png) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+    .txt-1 {
+        font-family: '946 Latin Regular 4';
+        font-weight: bold;
+        font-style: normal;
+        font-size: 50px;
+        line-height: 50px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        margin-left: -50px;
+    }
+
+    .txt-2 {
+        font-family: '946 Latin Regular 4';
+        font-weight: bold;
+        font-style: normal;
+        font-size: 100px;
+        line-height: 100px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: -20px;
+
+        &::before {
+            content: '';
+            width: 100%;
+            height: 10px;
+            position: absolute;
+            background-color: #4cc2f1;
+            bottom: -10px;
+            left: -184px;
+        }
+    }
+
+    .txt-3 {
+        font-family: 'GoodOT-CondBold';
+        font-weight: bold;
+        font-style: normal;
+        font-size: 45px;
+        line-height: 45px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+
+
 /* Extra Small */
 @media(max-width:767px) {
+    .logo {
+        margin-top: 15px;
+        max-width: 70%;
+    }
 
+    .video {
+        background: url(../images/bg-video-mobile.jpg) no-repeat;
+        background-size: cover;
+        background-position: center top;
+        margin-top: 25px;
+        padding-bottom: 30px;
+
+        .box-1 {
+            margin-top: 40px;
+
+            .txt-1 {
+                font-size: 35px;
+                line-height: 35px;
+            }
+
+            .txt-2 {
+                font-size: 30px;
+                line-height: 30px;
+                padding: 6px 4px 2px;
+                margin-left: 0px;
+                margin-top: 5px;
+            }
+        }
+
+        .box-2 {
+            margin-top: 70px;
+
+            .txt-1 {
+                font-size: 35px;
+                line-height: 35px;
+            }
+        }
+
+        .box-3 {
+            margin-top: 30px;
+        }
+    }
+
+    .em2019 {
+        background-color: transparent;
+        padding-top: 25px;
+
+        .txt-1 {
+            font-size: 30px;
+            line-height: 30px;
+            text-align: center;
+            margin-left: 0px;
+        }
+
+        .txt-2 {
+            font-size: 70px;
+            line-height: 70px;
+            text-align: center;
+            margin-top: 0px;
+
+            &::before {
+                bottom: -10px;
+                left: -105px;
+            }
+        }
+
+        .txt-3 {
+            text-align: center;
+            font-size: 40px;
+            line-height: 40px;
+            margin-top: 20px;
+        }
+    }
 }
 
 /* Small */

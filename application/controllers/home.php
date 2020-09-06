@@ -7,7 +7,7 @@ class Home extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'LANDINGPAGEMODELO';
+        $data['title'] = 'BRASILEIRÃO É AQUI';
         $data['description'] = 'description';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';
