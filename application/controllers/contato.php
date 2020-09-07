@@ -17,6 +17,7 @@ class Contato extends CI_Controller{
             $nome = $this->input->post('nome');
             $email = $this->input->post('email');
             $telefone = $this->input->post('phone');
+            $empresa = $this->input->post('empresa');
             $mensagem = utf8_decode($this->input->post('mss'));
             $assunto = utf8_decode('Contato enviado pelo site www.brasileiraoeaqui.com.br');
 
@@ -31,11 +32,12 @@ class Contato extends CI_Controller{
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
             <head> <meta http-equiv='content-type' content='text/html;charset=UTF-8' /> </head><body>
-            Nome:		{$nome}<br/>
-                E-mail:		{$email}<br/>
-                    Telefone:	{$telefone}<br/>
-                        Mensagem:	{$mensagem}<br/>
-                            </body></html>");
+            Nome: {$nome}<br/>
+                E-mail: {$email}<br/>
+                    Telefone/Celular: {$telefone}<br/>
+                        Agência/Empresa: {$empresa}<br/>
+                            Mensagem: {$mensagem}<br/>
+                                </body></html>");
 
             if($this->email->send()){
                 redirect('contato/obrigado');

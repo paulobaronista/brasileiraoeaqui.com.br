@@ -5,19 +5,21 @@ $(document).ready(function () {
 	});
 });
 
-$(function(){
+$(function () {
 	$('.nome').clear();
 	$('.email').clear();
 	$('.phone').clear();
+	$('.empresa').clear();
 	$('.msg').clear();
 
-	$('.btn_enviar').on('click', function(){
-		var n, e, t, m, s;
+	$('.btn_enviar').on('click', function () {
+		var n, e, t, o, m;
 		var msg = "";
 		n = $('.nome').val();
 		e = $('.email').val();
 		t = $('.phone').val();
+		o = $('.empresa').val();
 		m = $('.msg').val();
-		});
+	});
 
 });
