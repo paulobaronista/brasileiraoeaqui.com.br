@@ -1,0 +1,209 @@
+.ei {
+  background: url(../images/bg-ei.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  margin-top: 20px;
+  padding-top: 80px;
+}
+
+.ei .box-1 p {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 65px;
+  color: #3a5646;
+  text-transform: uppercase;
+}
+
+.ei .box-1 p span {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  position: relative;
+  z-index: 100;
+}
+
+.ei .box-1 p span::after {
+  content: '';
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  background-color: #f1e720;
+  bottom: 0px;
+  left: 0;
+  z-index: -10;
+}
+
+.ei .box-2 {
+  margin-top: 50px;
+}
+
+.ei .box-2 .txt-01 {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 20px;
+  color: #3a5646;
+  position: relative;
+  display: table;
+  margin: 0 auto;
+}
+
+.ei .box-2 .txt-01::after {
+  content: '';
+  width: 110px;
+  height: 1px;
+  position: absolute;
+  background-color: #f1e720;
+  top: 8px;
+  left: 50px;
+}
+
+.ei .box-2 .txt-01::before {
+  content: '';
+  width: 110px;
+  height: 1px;
+  position: absolute;
+  background-color: #f1e720;
+  top: 8px;
+  right: 50px;
+}
+
+.ei .box-2 .txt-02 {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  color: #3a5646;
+}
+
+.ei .box-2 .txt-03 {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 25px;
+  color: #3a5646;
+}
+
+.ei .box-2 .txt-04 {
+  font-family: '946 Latin Regular 4';
+  font-weight: bold;
+  font-style: normal;
+  color: #3a5646;
+  font-size: 40px;
+  line-height: 17px;
+  text-transform: uppercase;
+  background-color: #f1e720;
+  display: table;
+  margin: 3px auto 0;
+  padding: 5px 5px;
+}
+
+.ei .box-2 .txt-05 {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 15px;
+  color: #3a5646;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.ei .box-3 p {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #3a5646;
+  text-transform: uppercase;
+  border-top: solid 1px #4cc2f1;
+  border-bottom: solid 1px #4cc2f1;
+  display: table;
+  margin: 10px auto 0;
+  padding: 20px 10px 15px;
+}
+
+.ei .box-4 {
+  margin-top: 40px;
+}
+
+.ei .box-4 p {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 15px;
+  color: #3a5646;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .ei {
+    background: url(../images/bg-ei-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-top: 20px;
+    padding-top: 40px;
+  }
+  .ei .box-1 p {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .ei .box-1 p span::after {
+    height: 17px;
+    bottom: -3px;
+  }
+  .ei .box-2 {
+    margin-top: 30px;
+  }
+  .ei .box-2 .txt-05 {
+    font-size: 10px;
+    line-height: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .ei .box-3 img {
+    max-width: 80%;
+  }
+  .ei .box-3 p {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .ei .box-4 {
+    margin-top: 30px;
+  }
+  .ei .box-4 img {
+    max-width: 90%;
+  }
+  .ei .box-4 p {
+    font-size: 10px;
+    line-height: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .ei .box-1 p {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+/* Medium */
+/* Large */
+/*# sourceMappingURL=ei.css.map */

@@ -108,74 +108,155 @@
     </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-xs-12 col-sm-12 col-md-12">
-    <form method="post" role="form" action="<?php echo base_url("contato") ?>">
-        <span class="tt-form text-center">
-            <p>Preencha os dados abaixo para<br /> um atendimento personalizado!</p>
-        </span>
-        <div class="group-form">
-            <div class="form-group">
-                <label for="nome">Nome*</label>
-                <input id="nome" type="text" class="nome form-control" name="nome" required="required" />
-            </div>
-            <div class="form-group">
-                <label for="email">Email*</label>
-                <input id="email" type="email" class="email form-control" name="email" required="required" />
-            </div>
-            <div class="form-group">
-                <label for="telefone">Telefone</label>
-                <input id="telefone" class="phone form-control" type="tel" name="phone" />
-            </div>
-            <div class="form-group">
-                <label for="form-mensagem">Mensagem</label>
-                <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss"></textarea>
-            </div>
-            <button type="submit" class="btn_enviar enviar btn center-block" title="enviar" name="enviar_email" value="enviar">Enviar</button>
+<div class="container ei">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center box-1">
+            <p>Durante as transmissões<br>
+                dos jogos Athletico PR X Palmeiras<br>
+                e Bahia X Palmeiras,<br>
+                <span>a TNT foi líder absoluta de toda a Pay TV</span></p>
         </div>
-    </form>
-</div>
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center padding-off">
-                <p>COPYRIGHT © - TODOS OS DIREITOS RESERVADOS </p>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 box-2">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-off text-center">
+                <p class="txt-01">19/08</p>
+                <p class="txt-02">athletico pr x palmeiras</p>
+                <p class="txt-03">audiência domiciliar</p>
+                <p class="txt-04">2,95</p>
+            </div>
+            <div class="col-xs-12 visible-xs margin-top-30"></div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-off text-center">
+                <p class="txt-01">29/08</p>
+                <p class="txt-02">bahia x palmeiras</p>
+                <p class="txt-03">audiência domiciliar</p>
+                <p class="txt-04">1,91</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center">
+                <p class="txt-05">
+                    FONTE: KANTAR/IBOPE MEDIA BRASIL. 15 MERCADOS. 19 E 29/08/2020. FUT CAMP BRASILEIRO VIVO. RAT%. BASE COM PAY TV: TOTAL DE DOMICÍLIOS (9.436.000)
+                </p>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center box-3">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-ei.png" alt="EI">
+            <p>Até o momento já geramos:</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-4">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/view-57.png" alt="View">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/interacaoes.png" alt="Interações">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center">
+                <p>FONTE: SOCIAL BAKER. 01/08 A 03/09/2020. CONTEÚDOS RELACIONADOS À #BRASILEIRÃO2020. FACEBOOK, INSTAGRAN, YOUTUBE E TWITTER.</p>
             </div>
         </div>
     </div>
-</footer>
+</div>
+
+<div class="container jogos">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-1">
+            <p class="txt-01">E a diretoria preparou algumas novidades:</p>
+            <p class="txt-02">+ CLUBES E MUITO + JOGOS</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 box-2">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-off">
+                <p class="txt-01"><span>56</span> jogos*<br>
+                    ao vivo</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-off">
+                <p class="txt-02">E grandes clássicos estaduais<br>
+                    estarão na nossa cobertura</p>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 box-3">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-off linha">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/parxsan.png" alt="Jogos">
+            </div>
+            <div class="col-xs-12 visible-xs margin-top-30"></div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/ceaxfor.png" alt="Jogos">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off margin-top-30">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/parxsan.png" alt="Jogos">
+            </div>
+            <p>*Volume de partidas<br>
+                pode ter alterações.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container info">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off-mobile">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img class="img-responsive center-block img-01" src="<?= base_url(); ?>assets/images/info-interacoes.png" alt="Informações">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img class="img-responsive center-block img-02" src="<?= base_url(); ?>assets/images/info-conversa.png" alt="Informações">
+            </div>
+            <div class="col-xs-10 col-sm-12 col-md-12 col-lg-12">
+                <img class="img-responsive img-03" src="<?= base_url(); ?>assets/images/info-visibilidade.png" alt="Informações">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img class="img-responsive center-block img-04" src="<?= base_url(); ?>assets/images/info-criacao.png" alt="Informações">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img class="img-responsive center-block img-05" src="<?= base_url(); ?>assets/images/info-acoes.png" alt="Informações">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container br-2020">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center tt">
+            <p class="txt-01">Brasileirão 2020</p>
+            <p class="txt-02">Só quem é torcedor sabe</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 info-br">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/info-br-2020.png" alt="Só quem é patrocinador vibra com a cobertura mais engajada e multiplataforma do Brasil">
+        </div>
+    </div>
+</div>
+
+<div class="container contato">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+            <p class="txt-01">AQUI O DIÁLOGO TAMBÉM É CAMPEÃO!</p>
+            <p class="txt-02">MANDA UM ALÔ PRA GENTE E RECEBA TODAS AS OPORTUNIDADES<br>
+                QUE PREPARAMOS PARA SUA MARCA!</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
+            <form method="post" role="form" action="<?php echo base_url("contato") ?>">
+                <div class="group-form">
+                    <div class="col-xs-12 col-sm-6 col-md-6 form-group">
+                        <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="Nome*" />
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 form-group">
+                        <input id="empresa" type="text" class="empresa form-control" name="empresa" placeholder="Agência/Empresa" />
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 form-group">
+                        <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="Email*" />
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 form-group">
+                        <input id="telefone" class="phone form-control" type="tel" name="phone" placeholder="Telefone" />
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                        <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" placeholder="Mensagem"></textarea>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                        <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 logo-footer">
+            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logos.png" alt="Logos">
+        </div>
+    </div>
+</div>
 
 <?php
 if (isset($email_enviado))

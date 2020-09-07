@@ -1,0 +1,113 @@
+.contato {
+    padding-bottom: 60px;
+    .txt-01 {
+        font-family: 'GoodOT-CondBold';
+        font-weight: bold;
+        font-style: normal;
+        font-size: 35px;
+        line-height: 35px;
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 100px;
+    }
+
+    .txt-02 {
+        font-family: 'GoodOT-CondNews';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 35px;
+        line-height: 35px;
+        color: #fff;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+        margin-top: 10px;
+    }
+
+    .form-group {
+        padding: 0 1px 2px 1px;
+        margin-bottom: 0;
+    }
+
+    .form-control {
+        font-family: 'GoodOT-CondBold';
+        font-weight: bold;
+        font-style: normal;
+        text-transform: uppercase;
+        height: 70px;
+        padding: 6px 12px;
+        font-size: 18px;
+        line-height: 18px;
+        color: #3a5646;
+        background-color: #f1e720;
+        border: 0px solid transparent;
+        border-radius: 0px;
+        box-shadow: none;
+
+        &::-webkit-input-placeholder {
+            color: #3a5646;
+        }
+
+        &:-ms-input-placeholder {
+            color: #3a5646;
+        }
+
+        &::placeholder {
+            color: #3a5646;
+        }
+    }
+
+    textarea {
+        height: 170px !important;
+    }
+
+    .btn_enviar {
+        font-family: 'GoodOT-CondBold';
+        font-weight: bold;
+        font-style: normal;
+        text-transform: uppercase;
+        border: 0px solid transparent;
+        border-radius: 0px;
+        width: 150px;
+        height: 50px;
+        font-size: 22px;
+        line-height: 22px;
+        padding-top: 10px;
+        float: right;
+        background: #4cc2f1;
+        color: #3a5646;
+    }
+    .logo-footer {
+        margin-top: 110px;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .contato {
+        padding-bottom: 20px;
+        .txt-01 {
+            font-size: 25px;
+            line-height: 25px;
+            margin-top: 20px;
+        }
+    
+        .txt-02 {
+            font-size: 15px;
+            line-height: 15px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+        .logo-footer {
+            margin-top: 40px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

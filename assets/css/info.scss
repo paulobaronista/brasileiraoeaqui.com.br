@@ -1,0 +1,54 @@
+.info {
+    background: url(../images/bg-info-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-top: 20px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+    .img-01 {
+        margin-top: -50px;
+    }
+    .img-03 {
+        margin-top: -50px;
+        margin-left: -15px;
+    }
+    .img-04 {
+        margin-top: 40px;
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .info {
+        background: url(../images/bg-info-2-mobile.jpg) no-repeat;
+        background-size: cover;
+        background-position: center top;
+        margin-top: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    
+        .img-01 {
+            margin-top: -20px;
+        }
+        .img-03 {
+            margin-top: 20px;
+            margin-left: 0px;
+        }
+        .img-04 {
+            margin-top: 40px;
+        }
+        .img-05 {
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

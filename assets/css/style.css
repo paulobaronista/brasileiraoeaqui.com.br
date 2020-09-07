@@ -201,7 +201,7 @@ p {
   display: table;
   margin: 10% auto 0;
   width: 40%;
-  background-color: #051139;
+  background-color: #00e396;
   padding: 20px 10px;
   position: relative;
 }
@@ -219,12 +219,13 @@ p {
 }
 
 .aviso div p {
-  font-family: 'Champions';
-  font-weight: normal;
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
   font-style: normal;
   font-size: 18px;
   line-height: 1.667;
-  color: #fff;
+  color: #3a5646;
+  text-transform: uppercase;
 }
 
 /* Extra Small */
@@ -483,6 +484,7 @@ p {
   font-family: '946 Latin Regular 4';
   font-weight: bold;
   font-style: normal;
+  color: #3a5646;
   font-size: 65px;
   line-height: 30px;
   text-transform: uppercase;
@@ -548,6 +550,7 @@ p {
   font-family: '946 Latin Regular 4';
   font-weight: bold;
   font-style: normal;
+  color: #3a5646;
   font-size: 35px;
   line-height: 15px;
   text-transform: uppercase;
@@ -704,6 +707,654 @@ p {
     font-size: 40px;
     line-height: 40px;
     margin-top: 20px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.ei {
+  background: url(../images/bg-ei.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  margin-top: 20px;
+  padding-top: 80px;
+}
+
+.ei .box-1 p {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 65px;
+  color: #3a5646;
+  text-transform: uppercase;
+}
+
+.ei .box-1 p span {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  position: relative;
+  z-index: 100;
+}
+
+.ei .box-1 p span::after {
+  content: '';
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  background-color: #f1e720;
+  bottom: 0px;
+  left: 0;
+  z-index: -10;
+}
+
+.ei .box-2 {
+  margin-top: 50px;
+}
+
+.ei .box-2 .txt-01 {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 20px;
+  color: #3a5646;
+  position: relative;
+  display: table;
+  margin: 0 auto;
+}
+
+.ei .box-2 .txt-01::after {
+  content: '';
+  width: 110px;
+  height: 1px;
+  position: absolute;
+  background-color: #f1e720;
+  top: 8px;
+  left: 50px;
+}
+
+.ei .box-2 .txt-01::before {
+  content: '';
+  width: 110px;
+  height: 1px;
+  position: absolute;
+  background-color: #f1e720;
+  top: 8px;
+  right: 50px;
+}
+
+.ei .box-2 .txt-02 {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  color: #3a5646;
+}
+
+.ei .box-2 .txt-03 {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 25px;
+  color: #3a5646;
+}
+
+.ei .box-2 .txt-04 {
+  font-family: '946 Latin Regular 4';
+  font-weight: bold;
+  font-style: normal;
+  color: #3a5646;
+  font-size: 40px;
+  line-height: 17px;
+  text-transform: uppercase;
+  background-color: #f1e720;
+  display: table;
+  margin: 3px auto 0;
+  padding: 5px 5px;
+}
+
+.ei .box-2 .txt-05 {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 15px;
+  color: #3a5646;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.ei .box-3 p {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #3a5646;
+  text-transform: uppercase;
+  border-top: solid 1px #4cc2f1;
+  border-bottom: solid 1px #4cc2f1;
+  display: table;
+  margin: 10px auto 0;
+  padding: 20px 10px 15px;
+}
+
+.ei .box-4 {
+  margin-top: 40px;
+}
+
+.ei .box-4 p {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 15px;
+  color: #3a5646;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .ei {
+    background: url(../images/bg-ei-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-top: 20px;
+    padding-top: 40px;
+  }
+  .ei .box-1 p {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .ei .box-1 p span::after {
+    height: 17px;
+    bottom: -3px;
+  }
+  .ei .box-2 {
+    margin-top: 30px;
+  }
+  .ei .box-2 .txt-05 {
+    font-size: 10px;
+    line-height: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .ei .box-3 img {
+    max-width: 80%;
+  }
+  .ei .box-3 p {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .ei .box-4 {
+    margin-top: 30px;
+  }
+  .ei .box-4 img {
+    max-width: 90%;
+  }
+  .ei .box-4 p {
+    font-size: 10px;
+    line-height: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .ei .box-1 p {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+/* Medium */
+/* Large */
+.jogos {
+  background: url(../images/bg-jogos.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+.jogos .box-1 .txt-01 {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 55px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 125px;
+  margin-left: 180px;
+  position: relative;
+}
+
+.jogos .box-1 .txt-01::after {
+  content: '';
+  width: 440px;
+  height: 10px;
+  position: absolute;
+  background-color: #00e396;
+  top: -15px;
+  right: 63px;
+}
+
+.jogos .box-1 .txt-02 {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 65px;
+  line-height: 65px;
+  color: #3a5646;
+  background-color: #00e396;
+  display: table;
+  margin-top: 10px;
+  padding: 10px 20px 5px 70px;
+}
+
+.jogos .box-2 .txt-01 {
+  font-family: '946 Latin Regular 4';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 65px;
+  line-height: 65px;
+  text-transform: uppercase;
+  color: #00e396;
+  text-align: center;
+  display: table;
+  margin: 65px auto 0;
+  position: relative;
+}
+
+.jogos .box-2 .txt-01::after {
+  content: '';
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  background-color: #00e396;
+  bottom: -15px;
+  left: 0;
+}
+
+.jogos .box-2 .txt-01 span {
+  font-size: 120px;
+}
+
+.jogos .box-2 .txt-02 {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 150px;
+}
+
+.jogos .box-3 {
+  margin-top: 50px;
+}
+
+.jogos .box-3 .linha {
+  border-right: solid 2px #00e396;
+}
+
+.jogos .box-3 p {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .jogos {
+    background: url(../images/bg-jogos-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .jogos .box-1 .txt-01 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .jogos .box-1 .txt-01::after {
+    display: none;
+  }
+  .jogos .box-1 .txt-02 {
+    font-size: 30px;
+    line-height: 30px;
+    margin: 10px auto 0;
+    padding: 10px 20px 5px;
+  }
+  .jogos .box-2 .txt-01 {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 35px auto 0;
+  }
+  .jogos .box-2 .txt-01 span {
+    font-size: 90px;
+  }
+  .jogos .box-2 .txt-02 {
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .jogos .box-3 {
+    margin-top: 10px;
+  }
+  .jogos .box-3 img {
+    max-width: 70%;
+  }
+  .jogos .box-3 .linha {
+    border-right: solid 0px transparent;
+  }
+  .jogos .box-3 p {
+    font-size: 10px;
+    line-height: 10px;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .jogos {
+    margin-top: 20px;
+    padding-bottom: 50px;
+  }
+  .jogos .box-1 .txt-01 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 70px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .jogos .box-1 .txt-01::after {
+    content: '';
+    width: 240px;
+    right: 35px;
+  }
+  .jogos .box-1 .txt-02 {
+    margin: 10px auto 0;
+    padding: 10px 20px 5px;
+  }
+  .jogos .box-2 .txt-01 {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 35px auto 0;
+  }
+  .jogos .box-2 .txt-01 span {
+    font-size: 90px;
+  }
+  .jogos .box-2 .txt-02 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 50px;
+  }
+}
+
+/* Medium */
+/* Large */
+.info {
+  background: url(../images/bg-info-2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  margin-top: 20px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.info .img-01 {
+  margin-top: -50px;
+}
+
+.info .img-03 {
+  margin-top: -50px;
+  margin-left: -15px;
+}
+
+.info .img-04 {
+  margin-top: 40px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .info {
+    background: url(../images/bg-info-2-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .info .img-01 {
+    margin-top: -20px;
+  }
+  .info .img-03 {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .info .img-04 {
+    margin-top: 40px;
+  }
+  .info .img-05 {
+    margin-top: 20px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.br-2020 {
+  background: url(../images/bg-br-2020.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.br-2020 .tt {
+  background: url(../images/bg-tt-br.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+.br-2020 .tt .txt-01 {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 55px;
+  color: #3a5646;
+  text-transform: uppercase;
+}
+
+.br-2020 .tt .txt-02 {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 55px;
+  color: #3a5646;
+  text-transform: uppercase;
+}
+
+.br-2020 .info-br {
+  margin-top: 100px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .br-2020 {
+    background: url(../images/bg-br-2020-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .br-2020 .tt {
+    background: url(../images/bg-tt-br-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30px;
+    padding-top: 40px;
+  }
+  .br-2020 .tt .txt-01 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .br-2020 .tt .txt-02 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .br-2020 .info-br {
+    margin-top: 50px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.contato {
+  padding-bottom: 60px;
+}
+
+.contato .txt-01 {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.contato .txt-02 {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  margin-top: 10px;
+}
+
+.contato .form-group {
+  padding: 0 1px 2px 1px;
+  margin-bottom: 0;
+}
+
+.contato .form-control {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  height: 70px;
+  padding: 6px 12px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #3a5646;
+  background-color: #f1e720;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contato .form-control::-webkit-input-placeholder {
+  color: #3a5646;
+}
+
+.contato .form-control:-ms-input-placeholder {
+  color: #3a5646;
+}
+
+.contato .form-control::-ms-input-placeholder {
+  color: #3a5646;
+}
+
+.contato .form-control::placeholder {
+  color: #3a5646;
+}
+
+.contato textarea {
+  height: 170px !important;
+}
+
+.contato .btn_enviar {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  width: 150px;
+  height: 50px;
+  font-size: 22px;
+  line-height: 22px;
+  padding-top: 10px;
+  float: right;
+  background: #4cc2f1;
+  color: #3a5646;
+}
+
+.contato .logo-footer {
+  margin-top: 110px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .contato {
+    padding-bottom: 20px;
+  }
+  .contato .txt-01 {
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+  .contato .txt-02 {
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .contato .logo-footer {
+    margin-top: 40px;
   }
 }
 

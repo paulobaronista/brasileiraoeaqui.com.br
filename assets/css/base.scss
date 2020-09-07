@@ -165,7 +165,7 @@ p {
         display: table;
         margin: 10% auto 0;
         width: 40%;
-        background-color: #051139;
+        background-color: #00e396;
         padding: 20px 10px;
         position: relative;
 
@@ -182,12 +182,13 @@ p {
         }
 
         p {
-            font-family: 'Champions';
-            font-weight: normal;
+            font-family: 'GoodOT-CondBold';
+            font-weight: bold;
             font-style: normal;
             font-size: 18px;
             line-height: 1.667;
-            color: #fff;
+            color: #3a5646;
+            text-transform: uppercase;
         }
     }
 }
