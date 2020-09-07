@@ -7,7 +7,7 @@ class Contato extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'BRASILEIRÃO É AQUI';
+        $data['title'] = 'SUA MARCA NO BRASILEIRÃO NA TNT E ESPORTE INTERATIVO. AUDIENCIAS ESPETACULARES.';
         $data['description'] = 'description';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';
@@ -25,9 +25,9 @@ class Contato extends CI_Controller{
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@brasileiraoeaqui.com.br","BRASILEIRÃO É AQUI");
+            $this->email->from("contato@brasileiraoeaqui.com.br","SUA MARCA NO BRASILEIRÃO NA TNT E ESPORTE INTERATIVO.");
             $this->email->to('contato@brasileiraoeaqui.com.br');
-            $this->email->cc('contato@brasileiraoeaqui.com.br, paulobaronista@gmail.com, renata@spicycomm.com.br');
+            $this->email->cc('paulobaronista@gmail.com, adsales.brasil@turner.com, renata@spicycomm.com.br');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -56,7 +56,7 @@ class Contato extends CI_Controller{
     }
 
     public function obrigado(){
-        $data['title'] = 'BRASILEIRÃO É AQUI';
+        $data['title'] = 'SUA MARCA NO BRASILEIRÃO NA TNT E ESPORTE INTERATIVO. AUDIENCIAS ESPETACULARES.';
         $data['description'] = 'description';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';
@@ -70,7 +70,7 @@ class Contato extends CI_Controller{
     }
 
     public function fail(){
-        $data['title'] = 'BRASILEIRÃO É AQUI';
+        $data['title'] = 'SUA MARCA NO BRASILEIRÃO NA TNT E ESPORTE INTERATIVO. AUDIENCIAS ESPETACULARES.';
         $data['description'] = 'description';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';

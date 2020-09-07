@@ -7,7 +7,7 @@ class Home extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'BRASILEIRÃO É AQUI';
+        $data['title'] = 'SUA MARCA NO BRASILEIRÃO NA TNT E ESPORTE INTERATIVO. AUDIENCIAS ESPETACULARES.';
         $data['description'] = 'description';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';
