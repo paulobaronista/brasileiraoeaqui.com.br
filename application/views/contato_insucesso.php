@@ -132,7 +132,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center">
                 <p class="txt-05">
-                    FONTE: KANTAR/IBOPE MEDIA BRASIL. 15 MERCADOS. 19 E 29/08/2020. FUT CAMP BRASILEIRO VIVO. RAT%. BASE COM PAY TV: TOTAL DE DOMICÍLIOS (9.436.000)
+                    FONTE: KANTAR IBOPE MEDIA BRASIL. 15 MERCADOS. 19 E 29/08/2020. FUT CAMP BRASILEIRO VIVO. RAT%. BASE COM PAY TV: TOTAL DE DOMICÍLIOS (9.436.000)
                 </p>
             </div>
         </div>
@@ -148,7 +148,7 @@
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/interacaoes.png" alt="Interações">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center">
-                <p>FONTE: SOCIAL BAKER. 01/08 A 03/09/2020. CONTEÚDOS RELACIONADOS À #BRASILEIRÃO2020. FACEBOOK, INSTAGRAN, YOUTUBE E TWITTER.</p>
+                <p>FONTE: SOCIAL BAKERS. 01/08 A 03/09/2020. CONTEÚDOS RELACIONADOS À #BRASILEIRÃO2020. FACEBOOK, INSTAGRAM, YOUTUBE E TWITTER.</p>
             </div>
         </div>
     </div>
@@ -179,7 +179,7 @@
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/ceaxfor.png" alt="Jogos">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off margin-top-30">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/parxsan.png" alt="Jogos">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/athxcox.png" alt="Jogos">
             </div>
             <p>*Volume de partidas<br>
                 pode ter alterações.</p>
@@ -227,6 +227,9 @@
             <p class="txt-01">AQUI O DIÁLOGO TAMBÉM É CAMPEÃO!</p>
             <p class="txt-02">MANDA UM ALÔ PRA GENTE E RECEBA TODAS AS OPORTUNIDADES<br>
                 QUE PREPARAMOS PARA SUA MARCA!</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 text-center mail-to">
+            <a href="mailto:adsales.brasil@turner.com">adsales.brasil@turner.com</a>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
             <form method="post" role="form" action="<?php echo base_url("contato") ?>">

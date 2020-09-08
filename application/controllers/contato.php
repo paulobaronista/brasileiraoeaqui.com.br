@@ -7,7 +7,7 @@ class Contato extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'SUA MARCA NO BRASILEIRÃO NA TNT E ESPORTE INTERATIVO. AUDIENCIAS ESPETACULARES.';
+        $data['title'] = 'BRASILEIRAO É AQUI';
         $data['description'] = 'description';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';
@@ -25,7 +25,7 @@ class Contato extends CI_Controller{
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@brasileiraoeaqui.com.br","SUA MARCA NO BRASILEIRÃO NA TNT E ESPORTE INTERATIVO.");
+            $this->email->from("contato@brasileiraoeaqui.com.br","BRASILEIRAO É AQUI");
             $this->email->to('contato@brasileiraoeaqui.com.br');
             $this->email->cc('paulobaronista@gmail.com, adsales.brasil@turner.com, renata@spicycomm.com.br');
 
@@ -56,7 +56,7 @@ class Contato extends CI_Controller{
     }
 
     public function obrigado(){
-        $data['title'] = 'SUA MARCA NO BRASILEIRÃO NA TNT E ESPORTE INTERATIVO. AUDIENCIAS ESPETACULARES.';
+        $data['title'] = 'BRASILEIRAO É AQUI';
         $data['description'] = 'description';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';
@@ -70,7 +70,7 @@ class Contato extends CI_Controller{
     }
 
     public function fail(){
-        $data['title'] = 'SUA MARCA NO BRASILEIRÃO NA TNT E ESPORTE INTERATIVO. AUDIENCIAS ESPETACULARES.';
+        $data['title'] = 'BRASILEIRAO É AQUI';
         $data['description'] = 'description';
         $data['keywords'] = 'keywords';
         $menu['contato'] = 'active';
