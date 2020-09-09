@@ -32,7 +32,7 @@
         );
         echo meta($meta);
         echo link_tag('assets/css/bootstrap.min.css');
-        echo link_tag('assets/css/style.css?v=2.0');
+        echo link_tag('assets/css/style.css?v=2.1');
         ?>
     </head>
     <body>

@@ -255,6 +255,20 @@
                 </div>
             </form>
         </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div id="cookies" class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 cookies">
+                <div class="col-xs-12 col-sm-9 col-md-9">
+                    <p>
+                        Usamos cookies para garantir que obtém sempre a melhor experiência ao visitar o nosso website, para medir a utilização e o desempenho, personalizar publicidade e recomendar conteúdo de seu interesse. Ao clicar em “Aceito”, concorda com as nossas em receber nossas mensagens.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <a href="#" class="btn_cookie btn center-block">Aceito</a>
+                </div>
+            </div>
+        </div>
+
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 logo-footer">
             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logos.png" alt="Logos">
         </div>
@@ -266,9 +280,9 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
                 <p>
-                    Fonte: Kantar IBOPE Media Brasil. 15 Mercados. 27/04/2019 a 08/12/2019. 
-                    FUT CAMP BRASILEIRO VIVO. Rat%. Base com TV Paga: Total de domicílios 
-                    (10.179.700). Kantar IBOPE Media Brasil. 15 Mercados. 19/08/2020. Fut 
+                    Fonte: Kantar IBOPE Media Brasil. 15 Mercados. 27/04/2019 a 08/12/2019.
+                    FUT CAMP BRASILEIRO VIVO. Rat%. Base com TV Paga: Total de domicílios
+                    (10.179.700). Kantar IBOPE Media Brasil. 15 Mercados. 19/08/2020. Fut
                     Camp Brasileiro Vivo. Rat%. Base com TV Paga: Total de domicílios (9.436.000)
                 </p>
             </div>
