@@ -7,9 +7,9 @@ class Home extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'BRASILEIRAO É AQUI';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Brasileirão 2020/2021';
+        $data['description'] = 'Venha para o Brasileirão 2020';
+        $data['keywords'] = 'brasil futebol 2020, futebol brasileiro 2020, Midia futebol 2020, imprensa brasileira 2020';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);

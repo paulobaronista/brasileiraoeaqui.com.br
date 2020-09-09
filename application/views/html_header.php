@@ -5,9 +5,9 @@
         <title><?php echo $title; ?></title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="title" content="BRASILEIRAO É AQUI" />
-        <meta name="og:title" content="BRASILEIRAO É AQUI" />
-        <meta name="og:description" content="DESCRIÇÃO" />
+        <meta name="title" content="Brasileirão 2020/2021" />
+        <meta name="og:title" content="Brasileirão 2020/2021" />
+        <meta name="og:description" content="Venha para o Brasileirão 2020" />
         <meta name="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
         <link rel="icon" href="<?= base_url(); ?>assets/images/favicon.png">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?= base_url(); ?>assets/images/apple-touch-icon-144-precomposed.png">
@@ -17,9 +17,9 @@
         <link rel="image_src" href="<?= base_url(); ?>assets/images/compartilhamento.png" />
         <meta name="theme-color" content="#00e396"/>
         <!-- property (faz funcionar no linkedin) -->
-        <meta property="og:title" content="BRASILEIRAO É AQUI" />
+        <meta property="og:title" content="Brasileirão 2020/2021" />
         <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
-        <meta property="Descr" />
+        <meta property="Venha para o Brasileirão 2020" />
         <meta property="og:url" content="https://www.brasileiraoeaqui.com.br" />
         <!-- property (faz funcionar no linkedin) -->
         <?php

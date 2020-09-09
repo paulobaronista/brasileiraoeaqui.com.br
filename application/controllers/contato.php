@@ -7,9 +7,9 @@ class Contato extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'BRASILEIRAO É AQUI';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Brasileirão 2020/2021';
+        $data['description'] = 'Venha para o Brasileirão 2020';
+        $data['keywords'] = 'brasil futebol 2020, futebol brasileiro 2020, Midia futebol 2020, imprensa brasileira 2020';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -25,9 +25,9 @@ class Contato extends CI_Controller{
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@brasileiraoeaqui.com.br","BRASILEIRAO É AQUI");
+            $this->email->from("contato@brasileiraoeaqui.com.br","Brasileirão 2020/2021");
             $this->email->to('contato@brasileiraoeaqui.com.br');
-            $this->email->cc('paulobaronista@gmail.com, adsales.brasil@turner.com, renata@spicycomm.com.br');
+            $this->email->cc('paulobaronista@gmail.com, adsales.brasil@turner.com, renata@spicycomm.com.br, brasileiraoeaqui2020@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -56,9 +56,9 @@ class Contato extends CI_Controller{
     }
 
     public function obrigado(){
-        $data['title'] = 'BRASILEIRAO É AQUI';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Brasileirão 2020/2021';
+        $data['description'] = 'Venha para o Brasileirão 2020';
+        $data['keywords'] = 'brasil futebol 2020, futebol brasileiro 2020, Midia futebol 2020, imprensa brasileira 2020';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -70,9 +70,9 @@ class Contato extends CI_Controller{
     }
 
     public function fail(){
-        $data['title'] = 'BRASILEIRAO É AQUI';
-        $data['description'] = 'description';
-        $data['keywords'] = 'keywords';
+        $data['title'] = 'Brasileirão 2020/2021';
+        $data['description'] = 'Venha para o Brasileirão 2020';
+        $data['keywords'] = 'brasil futebol 2020, futebol brasileiro 2020, Midia futebol 2020, imprensa brasileira 2020';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);
