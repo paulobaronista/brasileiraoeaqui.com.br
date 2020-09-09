@@ -1,5 +1,5 @@
 .contato {
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .contato .txt-01 {
@@ -99,6 +99,20 @@
 
 .contato .logo-footer {
   margin-top: 110px;
+}
+
+footer {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+footer p {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 /* Extra Small */

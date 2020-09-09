@@ -261,6 +261,21 @@
     </div>
 </div>
 
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
+                <p>
+                    Fonte: Kantar IBOPE Media Brasil. 15 Mercados. 27/04/2019 a 08/12/2019. 
+                    FUT CAMP BRASILEIRO VIVO. Rat%. Base com TV Paga: Total de domicílios 
+                    (10.179.700). Kantar IBOPE Media Brasil. 15 Mercados. 19/08/2020. Fut 
+                    Camp Brasileiro Vivo. Rat%. Base com TV Paga: Total de domicílios (9.436.000)
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
 <div id="aviso" class="aviso text-center">
     <div>
         <button type="button" class="close" id="close"><span aria-hidden="true">&times;</span></button>
