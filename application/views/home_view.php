@@ -20,9 +20,11 @@
             </p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 box-3">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Y-0oNjZXgvY"></iframe>
-            </div>
+            <video width="100%" height="auto" controls>
+                <source src="<?= base_url(); ?>assets/video/brasileirao.mp4" type="video/mp4">
+                <source src="<?= base_url(); ?>assets/video/brasileirao.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
         </div>
     </div>
 </div>
