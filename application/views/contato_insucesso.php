@@ -20,7 +20,7 @@
             </p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 box-3">
-        <video width="100%" height="auto" controls>
+            <video width="100%" height="auto" controls>
                 <source src="<?= base_url(); ?>assets/video/brasileirao.mp4" type="video/mp4">
                 <source src="<?= base_url(); ?>assets/video/brasileirao.ogg" type="video/ogg">
                 Your browser does not support the video tag.
@@ -233,6 +233,23 @@
         <div class="col-xs-12 col-sm-12 col-md-12 text-center mail-to">
             <a href="mailto:adsales.brasil@turner.com">adsales.brasil@turner.com</a>
         </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 redes text-center">
+            <p>SIGA NOSSAS REDES SOCIAIS</p>
+            <div>
+                <figure>
+                    <a href="https://www.instagram.com/tntforads/" target="_blank">
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/instagram.png" alt="Instagram">
+                    </a>
+                    <figcaption>Instagram</figcaption>
+                </figure>
+                <figure>
+                    <a href="https://www.linkedin.com/showcase/tnt-for-ads" target="_blank">
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/linkedIn.png" alt="LinkedIn">
+                    </a>
+                    <figcaption>LinkedIn</figcaption>
+                </figure>
+            </div>
+        </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
             <form method="post" role="form" action="<?php echo base_url("contato") ?>">
                 <div class="group-form">
@@ -256,6 +273,12 @@
                     </div>
                 </div>
             </form>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 margin-top-30">
+            <a href="https://www.futebolespetacular.com.br/" target="_blank">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/banner-champions.jpg" alt="UEFA CHAMPIONS LEAGUE 19/20">
+            </a>
         </div>
 
         <div class="col-xs-12 col-sm-12 col-md-12">

@@ -95,6 +95,43 @@
     }
 }
 
+.redes {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    p {
+        font-family: 'GoodOT-CondBold';
+        font-weight: bold;
+        font-style: normal;
+        color: #fff;
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    div {
+        display: table;
+        margin: 0 auto;
+
+        figure {
+            display: inline-block;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            a {
+                display: block;
+            }
+
+            figcaption {
+                font-family: 'GoodOT-CondNews';
+                font-weight: normal;
+                font-style: normal;
+                color: #fff;
+            }
+        }
+    }
+}
+
 footer {
     padding-bottom: 20px;
     padding-top: 20px;
