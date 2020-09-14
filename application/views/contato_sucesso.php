@@ -322,3 +322,8 @@
             Já entraremos em contato para um <strong>atendimento exclusivo!</strong></p>
     </div>
 </div>
+
+<!-- Event snippet for Champions - Lead conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-592712689/s4uiCI6_yt4BEPGn0JoC'});
+</script>
