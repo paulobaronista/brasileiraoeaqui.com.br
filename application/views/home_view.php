@@ -266,9 +266,6 @@
                         <input id="telefone" class="phone form-control" type="tel" name="phone" placeholder="Telefone" />
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                        <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" placeholder="Mensagem"></textarea>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
                         <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Enviar</button>
                     </div>
                 </div>

@@ -18,7 +18,6 @@ class Contato extends CI_Controller{
             $email = $this->input->post('email');
             $telefone = $this->input->post('phone');
             $empresa = $this->input->post('empresa');
-            $mensagem = utf8_decode($this->input->post('mss'));
             $assunto = utf8_decode('Contato enviado pelo site www.brasileiraoeaqui.com.br');
 
             $this->load->library('email');
@@ -27,7 +26,7 @@ class Contato extends CI_Controller{
 
             $this->email->from("contato@brasileiraoeaqui.com.br","Brasileirão 2020/2021");
             $this->email->to('contato@brasileiraoeaqui.com.br');
-            $this->email->cc('paulobaronista@gmail.com, adsales.brasil@turner.com, renata@spicycomm.com.br, brasileiraoeaqui2020@gmail.com');
+            $this->email->cc('paulobaronista@gmail.com, adsales.brasil@turner.com, renata@spicycomm.com.br, brasileiraoeaqui2020@gmail.com, campfutebolespetacular@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -36,7 +35,6 @@ class Contato extends CI_Controller{
                 E-mail: {$email}<br/>
                     Telefone/Celular: {$telefone}<br/>
                         Agência/Empresa: {$empresa}<br/>
-                            Mensagem: {$mensagem}<br/>
                                 </body></html>");
 
             if($this->email->send()){
