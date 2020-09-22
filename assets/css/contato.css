@@ -152,6 +152,38 @@ footer p {
   line-height: 14px;
 }
 
+footer .navbar-nav {
+  padding-bottom: 14px;
+}
+
+footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  border-right: 1px solid white;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
+}
+
 .cookies {
   background-color: #f1e720;
   padding-top: 27px;
@@ -208,6 +240,9 @@ footer p {
   }
   .cookies .btn_cookie {
     margin-top: 20px;
+  }
+  footer .navbar-nav li > a {
+    border-right: 0px solid transparent;
   }
 }
 

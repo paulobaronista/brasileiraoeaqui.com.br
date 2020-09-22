@@ -1356,8 +1356,8 @@ p {
 }
 
 .redes p {
-  font-family: 'Champions';
-  font-weight: 800;
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
   font-style: normal;
   color: #fff;
   font-size: 20px;
@@ -1381,8 +1381,8 @@ p {
 }
 
 .redes div figure figcaption {
-  font-family: 'Champions';
-  font-weight: 300;
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
   font-style: normal;
   color: #fff;
 }
@@ -1399,6 +1399,38 @@ footer p {
   color: #fff;
   font-size: 12px;
   line-height: 14px;
+}
+
+footer .navbar-nav {
+  padding-bottom: 14px;
+}
+
+footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  border-right: 1px solid white;
+}
+
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
 }
 
 .cookies {
@@ -1458,8 +1490,57 @@ footer p {
   .cookies .btn_cookie {
     margin-top: 20px;
   }
+  footer .navbar-nav li > a {
+    border-right: 0px solid transparent;
+  }
 }
 
+/* Small */
+/* Medium */
+/* Large */
+.politica {
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+
+.politica .politica-tt {
+  background-color: #3a5646;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.politica .politica-tt h3 {
+  font-family: 'GoodOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  color: #f1e720;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.politica .politica-info {
+  margin-top: 30px;
+}
+
+.politica .politica-info p {
+  font-family: 'GoodOT-CondNews';
+  font-weight: normal;
+  font-style: normal;
+  color: #000;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.politica .politica-info p a {
+  color: #EC2c27;
+  text-decoration: underline;
+}
+
+/* Extra Small */
 /* Small */
 /* Medium */
 /* Large */
