@@ -250,7 +250,8 @@
                 </figure>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
+        <!-- 
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
             <form method="post" role="form" action="<?php echo base_url("contato") ?>">
                 <div class="group-form">
                     <div class="col-xs-12 col-sm-6 col-md-6 form-group">
@@ -270,7 +271,8 @@
                     </div>
                 </div>
             </form>
-        </div>
+        </div> 
+    -->
 
         <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 margin-top-30">
             <a href="https://www.futebolespetacular.com.br/" target="_blank">

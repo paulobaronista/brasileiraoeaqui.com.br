@@ -1270,7 +1270,7 @@ p {
   line-height: 35px;
   color: #fff;
   text-transform: uppercase;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   margin-top: 10px;
 }
 
@@ -1283,8 +1283,8 @@ p {
   font-weight: bold;
   font-style: normal;
   color: #fff;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 35px;
+  line-height: 35px;
 }
 
 .contato .form-group {
