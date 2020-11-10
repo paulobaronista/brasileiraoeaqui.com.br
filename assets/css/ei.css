@@ -11,7 +11,7 @@
   font-weight: normal;
   font-style: normal;
   font-size: 50px;
-  line-height: 55px;
+  line-height: 65px;
   color: #3a5646;
   text-transform: uppercase;
 }
@@ -33,6 +33,11 @@
   bottom: 0px;
   left: 0;
   z-index: -10;
+}
+
+.ei .box-1 p .dt {
+  font-size: 70px;
+  line-height: 85px;
 }
 
 .ei .box-2 {
@@ -175,6 +180,10 @@
   .ei .box-1 p span::after {
     height: 17px;
     bottom: -3px;
+  }
+  .ei .box-1 p .dt {
+    font-size: 20px;
+    line-height: 30px;
   }
   .ei .box-2 {
     margin-top: 30px;

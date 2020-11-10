@@ -115,9 +115,9 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center box-1">
             <p>
                 NA MÉDIA DE TODOS OS JOGOS ATÉ A 19ª RODADA<br>
-                <span>A TNT É LÍDER ABSOLUTA DE TODA A PAY TV +11.0M</span><br>
-                DE PESSOAS PASSARAM PELA TNT PARA<br>
-                ASSISTIREM AOS JOGOS
+                <span>A TNT É LÍDER ABSOLUTA DE TODA A PAY TV</span><br>
+                <span class="dt">+11.0M</span> <span>DE PESSOAS PASSARAM PELA TNT</span><br>
+                PARA ASSISTIREM AOS JOGOS
             </p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 box-2">
@@ -156,10 +156,10 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-4">
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/view-57.png" alt="View">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/view-57.png?1551369906076" alt="View">
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/interacaoes.png" alt="Interações">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/interacaoes.png?1551369906076" alt="Interações">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center">
                 <p>Fonte: Social Bakers. 01/08 a 04/11/2020. Conteúdos relacionados à #Brasileirao2020. Facebook, Instagram, Twitter e Youtube</p>
@@ -269,19 +269,6 @@
             </a>
         </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div id="cookies" class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 cookies">
-                <div class="col-xs-12 col-sm-9 col-md-9">
-                    <p>
-                        Usamos cookies para garantir que obtenha sempre a melhor experiência ao visitar o nosso website, para medir a utilização e o desempenho, bem como apresentar anúncios. Ao clicar em “Aceito”, concorda com as nossas configurações padrão.
-                    </p>
-                </div>
-                <div class="col-xs-12 col-sm-3 col-md-3">
-                    <a href="#" class="btn_cookie btn center-block">Aceito</a>
-                </div>
-            </div>
-        </div>
-
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 logo-footer">
             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logos.png" alt="Logos">
         </div>
@@ -308,6 +295,19 @@
         </div>
     </div>
 </footer>
+
+<div id="cookies" class="cookies">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
+        <div class="col-xs-12 col-sm-9 col-md-9">
+            <p>
+                Usamos cookies para garantir que obtenha sempre a melhor experiência ao visitar o nosso website, para medir a utilização e o desempenho, bem como apresentar anúncios. Ao clicar em “Aceito”, concorda com as nossas configurações padrão.
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+            <a href="#" class="btn_cookie btn center-block">Aceito</a>
+        </div>
+    </div>
+</div>
 
 <?php
 if (isset($email_enviado))

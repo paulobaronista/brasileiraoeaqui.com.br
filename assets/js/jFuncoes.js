@@ -4,7 +4,7 @@ $(document).ready(function () {
 
 $(document).ready(function(){
 
-	$('#cookies').show(3000);
+	$('#cookies').show();
 
     // Check if the user already accepted it
     if (window.localStorage.getItem('accept_cookies')) {

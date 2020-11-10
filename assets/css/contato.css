@@ -185,14 +185,24 @@ footer .navbar-nav li:last-child a {
 }
 
 .cookies {
-  background-color: #f1e720;
-  padding-top: 27px;
-  padding-bottom: 20px;
-  margin-top: 70px;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  height: 100%;
+  top: 0;
   display: none;
 }
 
-.cookies p {
+.cookies .box {
+  background-color: #f1e720;
+  padding-top: 27px;
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.cookies .box p {
   font-family: 'GoodOT-CondNews';
   font-weight: normal;
   font-style: normal;
@@ -201,7 +211,7 @@ footer .navbar-nav li:last-child a {
   line-height: 19px;
 }
 
-.cookies .btn_cookie {
+.cookies .box .btn_cookie {
   font-family: 'GoodOT-CondBold';
   font-weight: bold;
   font-style: normal;
@@ -235,10 +245,10 @@ footer .navbar-nav li:last-child a {
   .contato .logo-footer {
     margin-top: 40px;
   }
-  .cookies {
+  .cookies .box {
     padding-top: 17px;
   }
-  .cookies .btn_cookie {
+  .cookies .box .btn_cookie {
     margin-top: 20px;
   }
   footer .navbar-nav li > a {

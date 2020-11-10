@@ -11,7 +11,7 @@
             font-weight: normal;
             font-style: normal;
             font-size: 50px;
-            line-height: 55px;
+            line-height: 65px;
             color: #3a5646;
             text-transform: uppercase;
 
@@ -32,6 +32,11 @@
                     left: 0;
                     z-index: -10;
                 }
+            }
+
+            .dt {
+                font-size: 70px;
+                line-height: 85px;
             }
         }
     }
@@ -182,6 +187,10 @@
                         height: 17px;
                         bottom: -3px;
                     }
+                }
+                .dt {
+                    font-size: 20px;
+                    line-height: 30px;
                 }
             }
         }
