@@ -1,23 +1,5 @@
 $(document).ready(function () {
-
     $('#modalCabore').modal();
-
-    // Check if the user already accepted it
-    if (window.localStorage.getItem('accept_modal')) {
-
-        $('#modalCabore').modal('hide');
-
-        return false;
-    }
-    $(".close").click(function () {
-
-        // Save on LocalStorage
-        window.localStorage.setItem('accept_modal', true);
-
-        $('#modalCabore').modal('hide');
-
-        return false;
-    });
 });
 
 $(document).ready(function(){

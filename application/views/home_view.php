@@ -113,28 +113,40 @@
 <div class="container ei">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center box-1">
-            <p>Durante as transmissões<br>
-                dos jogos Athletico PR X Palmeiras<br>
-                e Bahia X Palmeiras,<br>
-                <span>a TNT foi líder absoluta de toda a Pay TV</span></p>
+            <p>
+                NA MÉDIA DE TODOS OS JOGOS ATÉ A 19ª RODADA<br>
+                <span>A TNT É LÍDER ABSOLUTA DE TODA A PAY TV +11.0M</span><br>
+                DE PESSOAS PASSARAM PELA TNT PARA<br>
+                ASSISTIREM AOS JOGOS
+            </p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 box-2">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-off text-center">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 padding-off text-center">
                 <p class="txt-01">19/08</p>
                 <p class="txt-02">athletico pr x palmeiras</p>
                 <p class="txt-03">audiência domiciliar</p>
                 <p class="txt-04">2,95</p>
+                <p class="txt-06">93% acima do 2° colocado</p>
             </div>
             <div class="col-xs-12 visible-xs margin-top-30"></div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-off text-center">
-                <p class="txt-01">29/08</p>
-                <p class="txt-02">bahia x palmeiras</p>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 padding-off text-center">
+                <p class="txt-01">12/09</p>
+                <p class="txt-02">athletico pr x coritiba</p>
                 <p class="txt-03">audiência domiciliar</p>
-                <p class="txt-04">1,91</p>
+                <p class="txt-04">2,06</p>
+                <p class="txt-06">115% acima do 2° colocado</p>
+            </div>
+            <div class="col-xs-12 visible-xs margin-top-30"></div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 padding-off text-center">
+                <p class="txt-01">14/10</p>
+                <p class="txt-02">palmeiras x coritiba</p>
+                <p class="txt-03">audiência domiciliar</p>
+                <p class="txt-04">2,63</p>
+                <p class="txt-06">71% acima do 2° colocado</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center">
                 <p class="txt-05">
-                    FONTE: KANTAR IBOPE MEDIA BRASIL. 15 MERCADOS. 19 E 29/08/2020. FUT CAMP BRASILEIRO VIVO. RAT%. BASE COM PAY TV: TOTAL DE DOMICÍLIOS (9.436.000)
+                    Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados. 08/08 a 01/11/2020. Fut Camp Brasileiro Vivo. Rat% e Cov%. Bases com TV Paga: Total de domicílios (9.436.000), Homens 18+ anos (10.044.000) e Pessoas 4+ anos (26.344.500 / univ. proj.: 45.690.888). Considerando 15.1M de domicílios assinantes (Anatel – Ago’20) e 3,02 pessoas por domicílio
                 </p>
             </div>
         </div>
@@ -150,7 +162,7 @@
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/interacaoes.png" alt="Interações">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center">
-                <p>FONTE: SOCIAL BAKERS. 01/08 A 03/09/2020. CONTEÚDOS RELACIONADOS À #BRASILEIRÃO2020. FACEBOOK, INSTAGRAM, YOUTUBE E TWITTER.</p>
+                <p>Fonte: Social Bakers. 01/08 a 04/11/2020. Conteúdos relacionados à #Brasileirao2020. Facebook, Instagram, Twitter e Youtube</p>
             </div>
         </div>
     </div>
@@ -250,29 +262,6 @@
                 </figure>
             </div>
         </div>
-        <!-- 
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
-            <form method="post" role="form" action="<?php echo base_url("contato") ?>">
-                <div class="group-form">
-                    <div class="col-xs-12 col-sm-6 col-md-6 form-group">
-                        <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="Nome*" />
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 form-group">
-                        <input id="empresa" type="text" class="empresa form-control" name="empresa" placeholder="Agência/Empresa" />
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 form-group">
-                        <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="Email*" />
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 form-group">
-                        <input id="telefone" class="phone form-control" type="tel" name="phone" placeholder="Telefone" />
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                        <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Enviar</button>
-                    </div>
-                </div>
-            </form>
-        </div> 
-    -->
 
         <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 margin-top-30">
             <a href="https://www.futebolespetacular.com.br/" target="_blank">

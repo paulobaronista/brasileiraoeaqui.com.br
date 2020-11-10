@@ -10,8 +10,8 @@
             font-family: 'GoodOT-CondNews';
             font-weight: normal;
             font-style: normal;
-            font-size: 55px;
-            line-height: 65px;
+            font-size: 50px;
+            line-height: 55px;
             color: #3a5646;
             text-transform: uppercase;
 
@@ -49,7 +49,7 @@
             color: #3a5646;
             position: relative;
             display: table;
-            margin: 0 auto;
+            margin: 0 auto 6px;
 
             &::after {
                 content: '';
@@ -90,6 +90,7 @@
             font-size: 25px;
             line-height: 25px;
             color: #3a5646;
+            margin-top: 5px;
         }
 
         .txt-04 {
@@ -102,7 +103,7 @@
             text-transform: uppercase;
             background-color: #f1e720;
             display: table;
-            margin: 3px auto 0;
+            margin: 6px auto 8px;
             padding: 5px 5px;
         }
 
@@ -116,6 +117,15 @@
             text-transform: uppercase;
             padding-bottom: 40px;
             padding-top: 40px;
+        }
+
+        .txt-06 {
+            font-family: 'GoodOT-CondNews';
+            font-weight: normal;
+            font-style: normal;
+            color: #3a5646;
+            font-size: 14px;
+            line-height: 14px;
         }
     }
 
@@ -165,7 +175,7 @@
         .box-1 {
             p {
                 font-size: 20px;
-                line-height: 20px;
+                line-height: 30px;
 
                 span {
                     &::after {
@@ -191,16 +201,20 @@
             img {
                 max-width: 80%;
             }
+
             p {
                 font-size: 30px;
                 line-height: 30px;
             }
         }
+
         .box-4 {
             margin-top: 30px;
+
             img {
                 max-width: 90%;
             }
+
             p {
                 font-size: 10px;
                 line-height: 10px;
