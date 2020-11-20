@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('#modalCabore').modal();
+    $('#modalTimer').modal();
 });
 
 $(document).ready(function(){

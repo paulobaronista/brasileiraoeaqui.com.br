@@ -34,6 +34,77 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Black.woff2") format("woff2"), url("../fonts/Montserrat-Black.woff") format("woff"), url("../fonts/Montserrat-Black.ttf") format("truetype"), url("../fonts/Montserrat-Black.svg#Montserrat-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-ExtraBold.eot");
+  src: url("../fonts/Montserrat-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"), url("../fonts/Montserrat-ExtraBold.woff") format("woff"), url("../fonts/Montserrat-ExtraBold.ttf") format("truetype"), url("../fonts/Montserrat-ExtraBold.svg#Montserrat-ExtraBold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-ExtraLight.eot");
+  src: url("../fonts/Montserrat-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-ExtraLight.woff2") format("woff2"), url("../fonts/Montserrat-ExtraLight.woff") format("woff"), url("../fonts/Montserrat-ExtraLight.ttf") format("truetype"), url("../fonts/Montserrat-ExtraLight.svg#Montserrat-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Light.eot");
+  src: url("../fonts/Montserrat-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.ttf") format("truetype"), url("../fonts/Montserrat-Light.svg#Montserrat-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat-Regular.svg#Montserrat-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-SemiBold.eot");
+  src: url("../fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.ttf") format("truetype"), url("../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Medium.eot");
+  src: url("../fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.ttf") format("truetype"), url("../fonts/Montserrat-Medium.svg#Montserrat-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Thin.eot");
+  src: url("../fonts/Montserrat-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Thin.woff2") format("woff2"), url("../fonts/Montserrat-Thin.woff") format("woff"), url("../fonts/Montserrat-Thin.ttf") format("truetype"), url("../fonts/Montserrat-Thin.svg#Montserrat-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
 .margin-top {
   margin-top: 10px;
 }
@@ -228,6 +299,110 @@ p {
   text-transform: uppercase;
 }
 
+.modalTimer {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalTimer .modal-dialog {
+  margin: 15% auto;
+}
+
+.modalTimer .modal-content {
+  background: url(../images/bg-timer.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 5px 0px;
+}
+
+.modalTimer .modal-content .close {
+  position: absolute;
+  top: -17px;
+  right: -10px;
+  z-index: 100;
+  opacity: 1;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+  color: #f93108;
+  text-shadow: none;
+  background: #fff;
+  border-radius: 15px;
+  padding: 4px 7px;
+}
+
+.modalTimer .modal-content .coruja-timer {
+  position: absolute;
+  top: -75px;
+  left: -125px;
+}
+
+.modalTimer .modal-content .boxTimer {
+  display: table;
+  margin-left: 140px;
+}
+
+.modalTimer .modal-content .boxTimer .txt {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-style: normal;
+  color: #f93108;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.modalTimer .modal-content .boxTimer .timer {
+  display: table;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.modalTimer .modal-content .boxTimer .timer .box {
+  display: table-cell;
+  text-align: center;
+  text-decoration: none;
+}
+
+.modalTimer .modal-content .boxTimer .timer .box .numero {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-style: normal;
+  background-color: #0024ff;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 35px;
+  line-height: 35px;
+  padding: 10px 10px;
+  min-width: 68px;
+  display: block;
+}
+
+.modalTimer .modal-content .boxTimer .timer .box .dt {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: normal;
+  color: #0024ff;
+  font-size: 30px;
+  line-height: 30px;
+  display: table-caption;
+  width: 15px;
+}
+
+.modalTimer .modal-content .boxTimer .timer .box p {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-style: normal;
+  color: #0024ff;
+  font-size: 8px;
+  line-height: 8px;
+  margin-top: 5px;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .padding-off-mobile {
@@ -237,6 +412,27 @@ p {
   .aviso div {
     margin: 30% auto 0;
     width: 95%;
+  }
+  .modalTimer .modal-dialog {
+    margin: 35% auto !important;
+  }
+  .modalTimer .modal-content {
+    background: url(../images/bg-timer-mobile.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px 0px;
+  }
+  .modalTimer .modal-content .close {
+    top: -30px;
+    right: 0;
+  }
+  .modalTimer .modal-content .coruja-timer {
+    display: none;
+  }
+  .modalTimer .modal-content .boxTimer {
+    display: table;
+    margin: 0 auto;
   }
 }
 
