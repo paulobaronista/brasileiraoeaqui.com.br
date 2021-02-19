@@ -31,19 +31,18 @@
 
 <div class="container em2019">
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <!-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <p class="txt-1">
                 em
             </p>
             <p class="txt-2">
                 2019
             </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        </div> -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 text-center">
             <p class="txt-3">
-                A MAIOR AUDIÊNCIA<br>
-                DE UM JOGO DO BRASILEIRÃO<br>
-                NA PAY TV É DA TNT:
+                A TNT ENCERROU 2020 NA LIDERANÇA COM O<br> 
+                BRASILEIRÃO E COMEÇOU 2021 COM TUDO!
             </p>
         </div>
     </div>
@@ -52,18 +51,26 @@
 <div class="container info-2019">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <p class="txt-01">EM 2019 A <span>MAIOR AUDIÊNCIA</span> DE UM JOGO<br>
-                DO BRASILEIRÃO NA PAY TV É DA <span>TNT:</span></p>
+            <p class="txt-01">NA MÉDIA DE TODOS OS JOGOS ATÉ A 34ª RODADA<br>
+                A <span>TNT</span> É LÍDER ABSOLUTA DE TODA A PAY TV!<br>
+                <span>#1 AUD. DOMICILAR 1,54</span>
+            </p>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+        <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
             <div class="box-1">
                 <p class="txt-02">palmeiras x internacional</p>
                 <p class="txt-03">5,61</p>
             </div>
-        </div>
+        </div> -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <p class="txt-04"><span>3 DOS 5 JOGOS MAIS ASSISTIDOS</span><br>
-                FORAM TRANSMITIDOS NA <span>TNT</span></p>
+            <p class="txt-04">ATÉ O MOMENTO<br>
+                <span>+15M DE PESSOAS</span><br>
+                PASSARAM PELA TNT PARA ASSISTIREM AOS JOGOS
+            </p>
+            <p class="txt-04">ENTRE OS HOMENS 18+<br>
+                DOS 48 JOGOS TRANSMITIDOS ATÉ O MOMENTO,<br>
+                <span>A TNT LIDEROU A PAY TV EM 33 DELES</span>
+            </p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="box-2">
@@ -93,18 +100,18 @@
 
 <div class="container em2020">
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <!-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <p class="txt-1">
                 em
             </p>
             <p class="txt-2">
                 2020
             </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        </div> -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 text-center">
             <p class="txt-3">
-                A AUDIÊNCIA<br>
-                JÁ COMEÇOU COM TUDO.
+                DESTAQUE PARA OS JOGOS EM QUE FICAMOS COM<br> 
+                MAIS DE 90% DE AUDIÊNCIA QUE O 2º COLOCADO!
             </p>
         </div>
     </div>
@@ -151,7 +158,6 @@
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center box-3">
-            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo-ei.png" alt="EI">
             <p>Até o momento já geramos:</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-4">
@@ -171,10 +177,10 @@
 <div class="container jogos">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-1">
-            <p class="txt-01">E a diretoria preparou algumas novidades:</p>
-            <p class="txt-02">+ CLUBES E MUITO + JOGOS</p>
+            <p class="txt-01">ATÉ O MOMENTO JÁ GERAMOS EM TODAS AS NOSSAS PLATAFORMAS:</p>
+            <!-- <p class="txt-02">+ CLUBES E MUITO + JOGOS</p> -->
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 box-2">
+        <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 box-2">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-off">
                 <p class="txt-01"><span>56</span> jogos*<br>
                     ao vivo</p>
@@ -183,8 +189,8 @@
                 <p class="txt-02">E grandes clássicos estaduais<br>
                     estarão na nossa cobertura</p>
             </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 box-3">
+        </div> -->
+        <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 box-3">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-off linha">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/parxsan.png" alt="Jogos">
             </div>
@@ -197,7 +203,7 @@
             </div>
             <p>*Volume de partidas<br>
                 pode ter alterações.</p>
-        </div>
+        </div> -->
     </div>
 </div>
 
@@ -308,8 +314,3 @@
         </div>
     </div>
 </div>
-
-<?php
-if (isset($email_enviado))
-    echo $email_enviado;
-?>
