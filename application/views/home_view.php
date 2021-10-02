@@ -41,8 +41,7 @@
         </div> -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 text-center">
             <p class="txt-3">
-                A TNT ENCERROU 2020 NA LIDERANÇA COM O<br> 
-                BRASILEIRÃO E COMEÇOU 2021 COM TUDO!
+                A TNT BATEU UM BOLÃO NO CAMPEONATO BRASILEIRO 2020!
             </p>
         </div>
     </div>
@@ -51,9 +50,9 @@
 <div class="container info-2019">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <p class="txt-01">NA MÉDIA DE TODOS OS JOGOS ATÉ A 34ª RODADA<br>
-                A <span>TNT</span> É LÍDER ABSOLUTA DE TODA A PAY TV!<br>
-                <span>#1 AUD. DOMICILAR 1,54</span>
+            <p class="txt-01">NA MÉDIA DE TODOS OS JOGOS<br>
+                A <span>TNT</span> FOI LÍDER ABSOLUTA DE TODA A PAY TV!<br>
+                <span>#1 AUD. domiciliar 1,49</span>
             </p>
         </div>
         <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
@@ -63,16 +62,16 @@
             </div>
         </div> -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <p class="txt-04">ATÉ O MOMENTO<br>
-                <span>+15M DE PESSOAS</span><br>
+            <p class="txt-04">
+                <span>+15.9M DE PESSOAS</span><br>
                 PASSARAM PELA TNT PARA ASSISTIREM AOS JOGOS
             </p>
             <p class="txt-04">ENTRE OS HOMENS 18+<br>
-                DOS 48 JOGOS TRANSMITIDOS ATÉ O MOMENTO,<br>
-                <span>A TNT LIDEROU A PAY TV EM 33 DELES</span>
+                DOS 54 JOGOS TRANSMITIDOS,<br>
+                <span>A TNT LIDEROU A PAY TV EM 37 DELES</span>
             </p>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="box-2">
                 <div class="col-xs-12 col-sm-4 col-md-4 padding-off text-center">
                     <p class="txt-02">palmeiras x internacional</p>
@@ -89,12 +88,12 @@
                     <p class="txt-03">5,26</p>
                 </div>
             </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+        </div> -->
+        <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
             <p class="txt-05">
                 Fonte: Kantar IBOPE Media Brasil. 15 Mercados. 27/04/2019 a 08/12/2019. FUT CAMP BRASILEIRO VIVO. Rat%. Base com TV Paga. Total de domicílios (10.179.700)
             </p>
-        </div>
+        </div> -->
     </div>
 </div>
 
@@ -108,27 +107,25 @@
                 2020
             </p>
         </div> -->
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 text-center">
+        <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 text-center">
             <p class="txt-3">
-                DESTAQUE PARA OS JOGOS EM QUE FICAMOS COM<br> 
+                DESTAQUE PARA OS JOGOS EM QUE FICAMOS COM<br>
                 MAIS DE 90% DE AUDIÊNCIA QUE O 2º COLOCADO!
             </p>
-        </div>
+        </div> -->
     </div>
 </div>
 
 <div class="container ei">
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center box-1">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 text-center box-1">
             <p>
-                NA MÉDIA DE TODOS OS JOGOS ATÉ A 19ª RODADA<br>
-                <span>A TNT É LÍDER ABSOLUTA DE TODA A PAY TV</span><br>
-                <span class="dt">+11.0M</span> <span>DE PESSOAS PASSARAM PELA TNT</span><br>
-                PARA ASSISTIREM AOS JOGOS
+                DESTAQUE PARA OS JOGOS EM QUE FICAMOS COM<br>
+                MAIS DE <span>90%</span> DE AUDIÊNCIA QUE O <span>2º COLOCADO!</span>
             </p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 box-2">
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 padding-off text-center">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-off text-center">
                 <p class="txt-01">19/08</p>
                 <p class="txt-02">athletico pr x palmeiras</p>
                 <p class="txt-03">audiência domiciliar</p>
@@ -136,39 +133,76 @@
                 <p class="txt-06">93% acima do 2° colocado</p>
             </div>
             <div class="col-xs-12 visible-xs margin-top-30"></div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 padding-off text-center">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 padding-off text-center">
                 <p class="txt-01">12/09</p>
                 <p class="txt-02">athletico pr x coritiba</p>
                 <p class="txt-03">audiência domiciliar</p>
                 <p class="txt-04">2,06</p>
                 <p class="txt-06">115% acima do 2° colocado</p>
             </div>
-            <div class="col-xs-12 visible-xs margin-top-30"></div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 padding-off text-center">
-                <p class="txt-01">14/10</p>
-                <p class="txt-02">palmeiras x coritiba</p>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 padding-off text-center margin-top-30">
+                <p class="txt-01">03/10</p>
+                <p class="txt-02">PALMEIRAS X CEARÁ</p>
                 <p class="txt-03">audiência domiciliar</p>
-                <p class="txt-04">2,63</p>
-                <p class="txt-06">71% acima do 2° colocado</p>
+                <p class="txt-04">2,39</p>
+                <p class="txt-06">185% acima do 2° colocado</p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 padding-off text-center margin-top-30">
+                <p class="txt-01">28/11</p>
+                <p class="txt-02">PALMEIRAS X ATHLETICO PR</p>
+                <p class="txt-03">audiência domiciliar</p>
+                <p class="txt-04">3,47</p>
+                <p class="txt-06">290% acima do 2° colocado</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 padding-off text-center margin-top-30">
+                <p class="txt-01">05/12</p>
+                <p class="txt-02">SANTOS X PALMEIRAS</p>
+                <p class="txt-03">audiência domiciliar</p>
+                <p class="txt-04">1,76</p>
+                <p class="txt-06">102% acima do 2° colocado</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 padding-off text-center margin-top-30">
+                <p class="txt-01">12/12</p>
+                <p class="txt-02">PALMEIRAS X BAHIA</p>
+                <p class="txt-03">audiência domiciliar</p>
+                <p class="txt-04">2,02</p>
+                <p class="txt-06">91% acima do 2° colocado</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 padding-off text-center margin-top-30">
+                <p class="txt-01">19/12</p>
+                <p class="txt-02">INTERNACIONAL X PALMEIRAS</p>
+                <p class="txt-03">audiência domiciliar</p>
+                <p class="txt-04">2,12</p>
+                <p class="txt-06">130% acima do 2° colocado</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 padding-off text-center margin-top-30">
+                <p class="txt-01">04/02</p>
+                <p class="txt-02">ATHLETICO PR X INTERNACIONAL</p>
+                <p class="txt-03">audiência domiciliar</p>
+                <p class="txt-04">3,06</p>
+                <p class="txt-06">209% acima do 2° colocado</p>
+            </div>
+            <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center">
                 <p class="txt-05">
-                    Fonte: Kantar IBOPE Media Brasil | Instar. 15 Mercados. 08/08 a 01/11/2020. Fut Camp Brasileiro Vivo. Rat% e Cov%. Bases com TV Paga: Total de domicílios (9.436.000), Homens 18+ anos (10.044.000) e Pessoas 4+ anos (26.344.500 / univ. proj.: 45.690.888). Considerando 15.1M de domicílios assinantes (Anatel – Ago’20) e 3,02 pessoas por domicílio
+                    Fonte: Kantar IBOPE Media Brasil. 15 Mercados. 19/08, 12/09, 03/10, 28/11, 05/12, 12/12, 19/12/2020 e 04/02/2021. Fut Camp Brasileiro Vivo. Rat%. Base com TV Paga: Total de domicílios (9.368.000)
                 </p>
-            </div>
+            </div> -->
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center box-3">
-            <p>Até o momento já geramos:</p>
+            <p>NAS REDES SOCIAIS O SUCESSO NÃO FOI DIFERENTE!</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-4">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
+            <div class="col-xs-12 col-sm-4 col-md-6 col-lg-4 padding-off">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/view-57.png?1551369906076" alt="View">
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 padding-off">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 padding-off">
                 <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/interacaoes.png?1551369906076" alt="Interações">
             </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 padding-off">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/impressoes.png?1551369906076" alt="Impressões">
+            </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center">
-                <p>Fonte: Social Bakers. 01/08 a 04/11/2020. Conteúdos relacionados à #Brasileirao2020. Facebook, Instagram, Twitter e Youtube</p>
+                <p>Fonte: Kantar IBOPE Media Brasil. 15 Mercados. 08/08/2020 a 25/02/2021. Fut Camp Brasileiro Vivo. Rat% e Cov%. Bases com TV Paga: Total de domicílios (9.368.000), Homens 18+ anos (9.806.000) e Pessoas 4+ anos (25.845.000 / univ. proj.: 44.866.488). Considerando 14.9M de domicílios assinantes (Anatel – Dez ’20) e 3,02 pessoas por domicílioFonte: Kantar IBOPE Media Brasil. 15 Mercados. 19/08, 12/09, 03/10, 28/11, 05/12, 12/12, 19/12/2020 e 04/02/2021. Fut Camp Brasileiro Vivo. Rat%. Base com TV Paga: Total de domicílios (9.368.000) Fonte: Social Bakers. 01/08/2020 a 28/02/2021. Conteúdos relacionados à #Brasileirao2020. Facebook, Instagram, Twitter e Youtube.</p>
             </div>
         </div>
     </div>
@@ -177,7 +211,7 @@
 <div class="container jogos">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-1">
-            <p class="txt-01">ATÉ O MOMENTO JÁ GERAMOS EM TODAS AS NOSSAS PLATAFORMAS:</p>
+            <p class="txt-01">GERAMOS EM TODAS AS NOSSAS PLATAFORMAS:</p>
             <!-- <p class="txt-02">+ CLUBES E MUITO + JOGOS</p> -->
         </div>
         <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 box-2">
@@ -290,14 +324,14 @@
                     <li><a href="<?php echo base_url(); ?>politicadecookies">Política de cookies</a></li>
                 </ul>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
+            <!-- <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center">
                 <p>
                     Fonte: Kantar IBOPE Media Brasil. 15 Mercados. 27/04/2019 a 08/12/2019.
                     FUT CAMP BRASILEIRO VIVO. Rat%. Base com TV Paga: Total de domicílios
                     (10.179.700). Kantar IBOPE Media Brasil. 15 Mercados. 19/08/2020. Fut
                     Camp Brasileiro Vivo. Rat%. Base com TV Paga: Total de domicílios (9.436.000)
                 </p>
-            </div>
+            </div> -->
         </div>
     </div>
 </footer>
